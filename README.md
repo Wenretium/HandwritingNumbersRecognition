@@ -22,7 +22,7 @@ Author：Wenretium
 
 为了方便预览图片，我将数据集转为了**png**格式，参考[这篇博客](https://blog.csdn.net/haoji007/article/details/76998140)。也可以直接从gz文件读取tensor进行训练。
 
-![1](imgs\配图\1.jpg)
+![1](imgs\1.jpg)
 
 
 
@@ -32,7 +32,7 @@ Author：Wenretium
 
 ##### 2.1 网络结构图
 
-![](imgs\配图\LeNet-5.jpg)
+![](imgs\LeNet-5.jpg)
 
 原作中C3连接方式：
 
