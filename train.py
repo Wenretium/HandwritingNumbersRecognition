@@ -20,6 +20,7 @@ opt, _ = TrainOptions()
 # prepare
 transform = transforms.Compose([
     transforms.Grayscale(num_output_channels=1),
+    transforms.Resize([32,32]),
     transforms.ToTensor()
 ])
 train_data = ImageFolder(opt.train_data_path,transform = transform)
